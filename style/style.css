@@ -1,0 +1,135 @@
+  .red_line{
+    width: 100px;
+    border-bottom: 5px solid red;
+
+  }
+  .our_project_row{
+    margin: 0pc;
+    padding: 0px;
+    overflow: hidden;
+  }
+  .img_hover:hover{
+    transform: scale(1.5);
+    transition: 2s;
+  }
+  .service{
+    font-size: 20px;
+  }
+
+  .line_style {
+
+    border-bottom-width: 1px; 
+  border-bottom-style: dotted;
+}
+.service_font{
+  font-size: 20px;
+}
+
+
+
+.background_image{
+  background-image: url(../images/car3.jpg);
+  /*width: 100%;*/
+  height: 400px;
+  background-repeat: no-repeat;
+  background-position: fixed;
+  background-position: center;
+  background-size: cover;
+
+}
+
+.input_feild{
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid red;
+  padding: 13px;
+  outline: none;
+}
+
+.submit_button{
+    margin-left: 10px;
+    margin-top: 30px;
+    /*padding: 13px 45px;*/
+    width: 25%;
+    height: 8vh;
+    border: 1px solid red;
+    background-color: white;
+    /*-webkit-appearance: auto!important;*/
+
+}
+.submit_button:hover{
+  background-color: red;
+  color: white;
+}
+
+
+.background_image_about{
+  background-image: url(../images/car8.jpg);
+  height: 400px;
+  background-repeat: no-repeat;
+  background-position: fixed;
+  background-position: center;
+  background-size: cover;
+}
+.team_image{
+    border-radius: 50%;
+}
+
+.team_image:hover{
+    transform: scale(1.4);
+    transition: 1s;
+}
+
+.for_service{
+   background-color: #efefef;
+   width: 100%;
+   min-height: 400px;
+   padding: 28px;
+   border-bottom: 3px solid red;
+   position: relative;
+}
+/*.number{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: red;
+  position: absolute;
+  top: -20px;
+  left: 46%;
+  z-index: 1;
+}*/
+.number{
+  width: 13%;
+  /*height: 6vh;*/
+  height: 10%;
+  border-radius: 50%;
+  background-color: red;
+  position: absolute;
+  top: -20px;
+  left: 46%;
+  z-index: 1;
+}
+body{
+  overflow-x: hidden;
+}
+
+
+.move{
+  transition: transform 1s;
+}
+.move:hover{
+  transform: translateY(-15px);
+  /*transform: scale(1.5);*/
+}
+
+
+.loader{
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background: url(../images/car_loader.gif) 50% 50% no-repeat rgb(249,249,249);
+
+}
